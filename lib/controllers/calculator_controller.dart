@@ -76,7 +76,9 @@ class CalculatorController extends GetxController {
       default:
         break;
     }
-    if (mathResult.value.endsWith('.0')){
-      mathResult.value= mathResult.value.substring(0,mathResult.value.length -2);
+    if (mathResult.value.endsWith('.0')) {
+      mathResult.value =
+          mathResult.value.substring(0, mathResult.value.length - 2);
+    }
   }
 }
